@@ -10,6 +10,9 @@ updates:
     schedule:
       interval: "daily"
     groups:
+      coverlet:
+        patterns:
+          - "coverlet*"
       xunit:
         patterns:
           - "xunit*"
